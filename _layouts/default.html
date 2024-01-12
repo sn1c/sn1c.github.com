@@ -31,7 +31,8 @@
     </div>
 
     {% if site.tracking_enabled %}
-      <script async defer src="https://scripts.withcabin.com/hello.js"></script>
+      <script data-goatcounter="https://stats.snickels.io/count"
+              async src="{{ '/assets/count.js' | relative_url }}"></script>
     {% endif %}
   </body>
 </html>
