@@ -1,15 +1,15 @@
 # Setup
 title: Sebastian Nickels
 url: https://snickels.io
-paginate: 1
-paginate_path: "/page:num/"
+#paginate: 1
+#paginate_path: "/page:num/"
 baseurl: ""
 permalink: pretty
 
 # Gems
 plugins:
   - jekyll-gist
-  - jekyll-paginate
+#  - jekyll-paginate
   - jekyll-seo-tag
 
 # Optimize Jekyll
