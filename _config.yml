@@ -3,7 +3,7 @@ title: Sebastian Nickels
 url: https://snickels.io
 paginate: 1
 paginate_path: "/page:num/"
-baseurl: "/"
+baseurl: ""
 permalink: pretty
 
 # Gems
@@ -17,33 +17,35 @@ exclude:
   - .editorconfig
   - .git
   - .jekyll-cache
+  - _posts
+  - archive.md
+  - blog.html
   - Gemfile
   - Gemfile.lock
   - LICENSE.md
   - README.md
+  - TEMPLATE_README.md
 
 sass:
   sass_dir: _sass
   style: :compressed
 
 # Options
-
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
+tracking_enabled: true
 
 # Specify the author for blog posts
 author:
   name: Sebastian Nickels
-#  url: https://twitter.com/mdo
+  url: https://snickels.io
 #  email: markdotto@gmail.com
 
 # Custom vars
 # version: 3.0.0
 
 # Navbar page list
-nav:
-  - title: About
-    url: /about
-    
-  - title: Blog
-    url: /archive
+#nav:
+#  - title: About
+#    url: /
+#
+#  - title: Blog
+#    url: /blog
