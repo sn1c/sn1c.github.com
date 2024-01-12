@@ -30,17 +30,11 @@ sass:
   sass_dir: _sass
   style: :compressed
 
-# Options
-tracking_enabled: true
-
 # Specify the author for blog posts
 author:
   name: Sebastian Nickels
   url: https://snickels.io
-#  email: markdotto@gmail.com
-
-# Custom vars
-# version: 3.0.0
+  email: contact@snickels.io
 
 # Navbar page list
 #nav:
